@@ -1,6 +1,12 @@
 @import url(./blocks/common.css);
+@import url(./blocks/header.css);
 @import url(./blocks/hero.css);
+@import url(./blocks/hero2.css);
 @import url(./blocks/about.css);
 @import url(./blocks/detail.css);
 @import url(./blocks/content.css);
 @import url(./blocks/info.css);
+@import url(./blocks/header-content.css);
+@import url(./blocks/step.css);
+@import url(./blocks/button.css);
+@import url(./blocks/facts.css);

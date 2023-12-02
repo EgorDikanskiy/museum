@@ -1,22 +1,46 @@
 {% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 <div class="header">
-<div class="logo">
-  <img src="{% static 'image/logo.png'%}" alt="Website Logo">
-</div>
-<div class="headerName"> Музей Московского Политеха</div>
-<nav>
-  <ul>
-    <li><a href="ссылка на страницу">Главная</a></li>
-    <li class="dropdown">
-      <a href="ссылка на страницу">Вуз</a>
-      <div class="dropdown-content">
-        <a href="#">История возникновения</a>
-        <a href="#">Известные люди</a>
-        <a href="#">Внеучебные организации</a>
-        <a href="#">Достижения и успехи</a>
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <img class="header__logo-img" src="{% static 'image/logo.png' %}" alt="Website Logo">
       </div>
-    </li>
-    <li><a href="ссылка на страницу">О нас</a></li>
-  </ul>
-</nav>
+      <div class="header__title">Музей Московского Политеха</div>
+      <nav class="header__nav">
+        <ul class="menu">
+          <li class="menu__dropdown">
+            <a class="menu__link" href="ссылка на страницу">Пункт</a>
+            <div class="menu__dropdown-content">
+              <a class="menu__dropdown-link" href="#">Подпункт 1</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 2</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+            </div>
+          </li>
+
+          <li class="menu__dropdown">
+            <a class="menu__link" href="ссылка на страницу">Пункт</a>
+            <div class="menu__dropdown-content">
+              <a class="menu__dropdown-link" href="#">Подпункт 1</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 2</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+            </div>
+          </li>
+
+          <li class="menu__dropdown">
+            <a class="menu__link" href="ссылка на страницу">Пункт</a>
+            <div class="menu__dropdown-content">
+              <a class="menu__dropdown-link" href="#">Подпункт 1</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 2</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+              <a class="menu__dropdown-link" href="#">Подпункт 3</a>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
 </div>
