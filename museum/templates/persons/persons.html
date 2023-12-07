@@ -1,0 +1,64 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+
+
+  <title>Московский политехнический университет</title>
+</head>
+
+<body>
+
+
+  <header>
+    {% include "includes/header.html" %}
+  </header>
+
+
+  <main>
+
+    <div class="bg bg_1">
+      <div class="container">
+
+        <div class="hero2">
+
+          <div class="hero2__text">
+            <h1 class="title">Знаковые личности и их вклад в образовании
+              Политеха</h1>
+            <p class="hero2__lead">
+              Знаковые личности и их вклад в образовании
+              ПолитехаДобро пожаловать на нашу страницу, посвящённую важным личностям, которые оставили свой след в
+              истории ПОЛИТЕХА. В нашей коллекции вы найдете фотографии Мейена Христиана Христиановича, главного
+              распорядителя железнодорожных дел, Ивана Ивановича Артоболевского, выдающегося советского ученого-механика
+              и
+              других личностей, которые внесли свой вклад.
+            </p>
+
+            <a class="button" href="{% url 'persons:persons_detailed' %}">Подробнее</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </main>
+
+   {% include "includes/footer.html" %}
+
+
+
+</body>
+
+</html>

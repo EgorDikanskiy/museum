@@ -1,0 +1,131 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+
+
+  <title>Московский политехнический университет</title>
+</head>
+
+<body>
+
+
+  <header>
+    {% include "includes/header.html" %}
+
+  </header>
+
+
+  <main>
+
+    <div class="container pt-2">
+      <h1 class="title">Знаковые личности и их вклад в образовании Политеха</h1>
+
+      <div class="grid grid_size-col-2 mb-5">
+
+        <div class="grid_col">
+
+          <div class="person">
+            <img class="person__image image" src="{% static 'image/1.png' %}">
+            <p class="person__title">Мейен Христиан Христианович</p>
+            <p class="person__description">
+              прошёл путь от механика до старшего инженера. Затем его заметили высшие руководители, что позволило ему
+              продвинуться на высшие посты и стать главным распорядителем железнодорожных дел. Его реформы помогли
+              существенно улучшить транспортную систему России.
+            </p>
+            <p class="person__subtitle">Роль в истории политеха:</p>
+            <p class="person__description">
+              Основатель Комиссаровской технической школы в Москве. В сентябре 1865 года инженер основал Императорское
+              Комиссаровское техническое училище. С 1865 по 1873 год был директором
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="grid_col">
+
+          <div class="person">
+            <img class="person__image image" src="{% static 'image/2.png' %}">
+            <p class="person__title">Мейен Христиан Христианович</p>
+            <p class="person__description">
+              прошёл путь от механика до старшего инженера. Затем его заметили высшие руководители, что позволило ему
+              продвинуться на высшие посты и стать главным распорядителем железнодорожных дел. Его реформы помогли
+              существенно улучшить транспортную систему России.
+            </p>
+            <p class="person__subtitle">Роль в истории политеха:</p>
+            <p class="person__description">
+              Основатель Комиссаровской технической школы в Москве. В сентябре 1865 года инженер основал Императорское
+              Комиссаровское техническое училище. С 1865 по 1873 год был директором
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="grid grid_size-col-3">
+
+        <div class="grid_col">
+
+          <div class="person">
+            <img class="person__image image" src="{% static 'image/3.png' %}">
+            <p class="person__title">Виктор Степанович Черномырдин</p>
+            <p class="person__description">
+              Советский и российский государственный деятель. Председатель Совета министров Российской Федерации. В
+              честь Черномыдина был назван МАМИ.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="grid_col">
+
+          <div class="person">
+            <img class="person__image image" src="{% static 'image/4.png' %}">
+            <p class="person__title">Михаил Васильевич Ломоносов</p>
+            <p class="person__description">
+              Первый крупный русский учёный-естествоиспытатель, известный также как полимат. 1919 год - Императорское
+              Комисаровское техническое училище было преобразовано в 1-й Московский механико- электротехнический
+              техникум имени М.В. Ломоносова.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="grid_col">
+
+          <div class="person">
+            <img class="person__image image" src="{% static 'image/5.png' %}">
+            <p class="person__title">Грибов Иван Васильевич</p>
+            <p class="person__description">
+              Русский и советский учёный, профессор, доктор наук, специалист в области двигателей внутреннего сгорания,
+              первый декан автотракторного факультета и заведующий кафедрой «Эксплуатация автомобиля» МАМИ.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+  {% include "includes/footer.html" %}
+
+
+
+</body>
+
+</html>

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'sorl.thumbnail',
     'django_cleanup.apps.CleanupConfig',
     'history.apps.HistoryConfig',
+    'persons.apps.PersonsConfig',
     'homepage.apps.HomepageConfig',
 ]
 

@@ -26,6 +26,7 @@ if settings.DEBUG:
 urlpatterns = [
     path('', include('homepage.urls')),
     path('history/', include('history.urls')),
+    path('persons/', include('persons.urls')),
     path('admin/', admin.site.urls),
 ]
 
