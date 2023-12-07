@@ -10,7 +10,7 @@
       <nav class="header__nav">
         <ul class="menu">
           <li class="menu__dropdown">
-            <a class="menu__link" href="ссылка на страницу">Главная</a>
+            <a class="menu__link" href="{% url 'homepage:homepage' %}">Главная</a>
             <div class="menu__dropdown-content">
               <a class="menu__dropdown-link" href="#">Подпункт 1</a>
               <a class="menu__dropdown-link" href="#">Подпункт 2</a>
@@ -23,7 +23,7 @@
             <a class="menu__link" href="ссылка на страницу">Вуз</a>
             <div class="menu__dropdown-content">
               <a class="menu__dropdown-link" href="{% url 'history:history' %}">История возникновения</a>
-              <a class="menu__dropdown-link" href="#">Известные люди</a>
+              <a class="menu__dropdown-link" href="{% url 'persons:persons' %}">Известные люди</a>
               <a class="menu__dropdown-link" href="#">Внеучебные организации</a>
               <a class="menu__dropdown-link" href="#">Достижения и успехи</a>
             </div>
